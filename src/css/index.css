@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 1rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+label,
+span {
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn {
+  border: 0;
+  padding: 0.75em 2em;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #012a93;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #1400c9;
+  transition: 0.2s ease-in;
+}
+
+.btn-login {
+  margin: 2em 0 2em;
+  width: 100%;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
